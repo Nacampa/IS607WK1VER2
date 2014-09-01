@@ -7,6 +7,6 @@ data(sales)
 head(sales)
 nrow(sales)
 # Number of observations: 401146
-nrom(na,omit(sales))
+nrow(na.omit(sales))
 # number of observations omitting na: 387010
 
